@@ -162,7 +162,7 @@ if start_time <= current_time <= end_time:
 
     fig = go.Figure()
     fig.add_trace(
-        go.bar(
+        go.Bar(
             x = top_10["Category"],
             y = top_10["Average_Rating"],
             name = "Average Rating",
@@ -171,7 +171,7 @@ if start_time <= current_time <= end_time:
     )
 
     fig.add_trace(
-        go.bar(
+        go.Bar(
             x = top_10["Category"],
             y = top_10["Total_Reviews"],
             name = "Toatal Reviews",
