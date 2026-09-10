@@ -197,7 +197,7 @@ if start_time <= current_time <= end_time:
         ),
         legend = dict(
             orientation = "h",
-            yancbor = "bottom",
+            yanchor = "bottom",
             y = 1.02,
             xanchor = "center",
             x = 0.5
