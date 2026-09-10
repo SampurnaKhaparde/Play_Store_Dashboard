@@ -372,4 +372,8 @@ st.divider()
 
 st.caption(
     "Google Play Store Analytics Dashboard | Internship Project"
+<<<<<<< HEAD
 )
+=======
+)
+>>>>>>> 9a52ff1 (Updated Streamlit app)
